@@ -20,9 +20,9 @@ Reassemble machine code in memory back into human readable assembly code.<br>
 
 This program is written in Motorola 68000 Assembly Language (M68k), and its purpose is to reassemble machine code back into human readable opcodes and effective addresses.
 
-The program flow begins by asking the user the starting and ending memory address of where the program is located in memory. From the starting memory address, the disassembler project code (this program) will read-in the machine code (as Hexadecimal values) and decode it back to readable code. For non-decodable data, "$DATA" is printed. The program code that was loaded into memory is basically re-displayed back. It will decode line-by-line until the specified ending memory address. When reaching the ending address, the program can be restarted or terminated.
+The disassembler's (this program) flow begins by asking the user the starting and ending memory address of where an already loaded-in program is located in memory. From the starting memory address, the disassembler reads in the machine code (as Hexadecimal values) and decode it back to readable code. For non-decodable data, "$DATA" is printed. The program code that was loaded into memory is basically re-displayed back. It will decode line-by-line until the specified ending memory address. When reaching the ending address, the disassembler can be restarted or terminated.
 
-This project was extreamly challenging yet fantastically rewarding. Learning to program at the lowest level for the CPU was quite the experience and deepened my appreciation for high-level languages.
+This project was extreamly challenging yet fantastically rewarding. Learning to program at the lowest level for the CPU was quite the experience and greatly deepened my appreciation for high-level languages.
 
 Sample output of the program: Green shows memory addresses and Blue shows reassembled machine code from memory.<br>
 ![demo](https://cloud.githubusercontent.com/assets/10789046/24360657/cee7eeac-12bc-11e7-9558-74af19971f37.jpg)<br>
